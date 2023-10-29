@@ -79,7 +79,7 @@ Modify ```surrogate_model_id``` to change the architectures of the surrogate mod
 ```
 python plg_tacgan.py \
 --inv_loss_type=margin \
---save_dir='results_facenet642' \
+--save_dir='results_facenet64' \
 --classid='0,1,2' \
 --config_exp ./config/exp/FaceNet64_celeba.json \
 ```
@@ -90,7 +90,7 @@ python plg_tacgan.py \
 
 ```
 python evaluation.py \
---save_dir='results_facenet642' \
+--save_dir='results_facenet64' \
 --classid='0,1,2' \
 --config_exp ./config/exp/FaceNet64_celeba.json \
 
