@@ -97,6 +97,20 @@ python evaluation.py \
 ```
 
 
+## Acknowledgements
+We gratefully acknowledge the following works:
+- LOMMA: https://ngoc-nguyen-0.github.io/re-thinking_model_inversion_attacks/
+- PLGMI: https://github.com/LetheSec/PLG-MI-Attack/tree/main
+- Densenet (Pytorch): https://pytorch.org/vision/main/models/densenet.html
+- Experiment Tracking with Weights and Biases : https://www.wandb.com/
+
+
+## Reference
+<a id="1">[1]</a> 
+Yuan, Xiaojian, et al. "Pseudo Label-Guided Model Inversion Attack via Conditional Generative Adversarial Network." AAAI (2023)..
+
+
+
 
 
 
