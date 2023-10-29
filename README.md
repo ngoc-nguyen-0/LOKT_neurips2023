@@ -33,7 +33,9 @@ pip install -r requirements.txt
 * Modify the arguments of the config at ```./config/exp/experiment_name.json```. Important arguments:
   * `result_dir`: Modify the output path.
   * `path_T`: Modify the path to the target model
-    
+  * 
+**Other arguments will be automatically updated when you train the TACGAN and surrogate models.**
+
 * Then, run the following command line to get the TACGAN:
 
 ```
