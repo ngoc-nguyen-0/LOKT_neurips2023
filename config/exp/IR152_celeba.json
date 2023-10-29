@@ -2,11 +2,12 @@
   "train": {
     "config_dataset": "./config/dataset/celeba.json",
     "target": "IR152",
+    "result_dir": "../Results",
     "path_T": "../target_model/target_ckp/IR152_91.16.tar",
     "models": "densenet121,densenet161,densenet169,D,T",
-    "cls_ckpts": "../Results_label_only/celeba/celeba/IR152/S/densenet121/IR152_densenet121_e200.pt,../Results_label_only/celeba/celeba/IR152/S/densenet161/IR152_densenet161_e200.pt,../Results_label_only/celeba/celeba/IR152/S/densenet169/IR152_densenet169_e200.pt,D,T",
-    "path_G": "../Results_tacgan/celeba/celeba/IR152/tacgan_1.5_wgan/gen_20_iter_0020000.pth.tar",
-    "path_D": "../Results_tacgan/celeba/celeba/IR152/tacgan_1.5_wgan/dis_20_iter_0020000.pth.tar",
-    "gen_data": "../Results_label_only/celeba/celeba/IR152/generated_data_tacgan/IR152_celeba_celeba.pt"
+    "cls_ckpts": "../Results/celeba/celeba/IR152/S/densenet121/IR152_densenet121_e200.pt,../Results/celeba/celeba/IR152/S/densenet161/IR152_densenet161_e200.pt,../Results/celeba/celeba/IR152/S/densenet169/IR152_densenet169_e200.pt,D,T",
+    "path_G": "../Results/celeba/celeba/IR152/tacgan_1.5_wgan/gen_20_iter_0020000.pth.tar",
+    "path_D": "../Results/celeba/celeba/IR152/tacgan_1.5_wgan/dis_20_iter_0020000.pth.tar",
+    "gen_data": "../Results/celeba/celeba/IR152/generated_data_tacgan/IR152_celeba_celeba.pt"
   }
 }
