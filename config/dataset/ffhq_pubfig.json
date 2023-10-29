@@ -1,0 +1,15 @@
+{
+    "dataset":{
+        "pub_file_path": "./data_files/ffhq_ganset.txt",
+        "test_file_path": "./data_files/pubfig_testset.txt",
+        "train_file_path": "./data_files/pubfig_trainset.txt",
+        "d_priv": "pubfig",
+        "d_pub": "ffhq",
+        "img_priv_path": "../pubfig/pubfig83",
+        "img_pub_path": "../ffhq/thumbnails128x128",
+        "n_classes":50,
+        "E_n_classes":83,
+        "path_E":"../target_model/target_ckp/pubfig83_FaceNet_98.68_evaluator.tar",
+        "img_size": 64
+    }
+}

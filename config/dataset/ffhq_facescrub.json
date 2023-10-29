@@ -1,0 +1,15 @@
+{
+    "dataset":{
+        "pub_file_path": "./data_files/ffhq_ganset.txt",
+        "test_file_path": "./data_files/facescrub_testset.txt",
+        "train_file_path": "./data_files/facescrub_trainset.txt",
+        "d_priv": "facescrub",
+        "d_pub": "ffhq",
+        "img_priv_path": "../facescrub_full",
+        "img_pub_path": "../ffhq/thumbnails128x128",
+        "n_classes":200,
+        "E_n_classes":530,
+        "path_E":"../target_model/target_ckp/facescrub_FaceNet_97.37_evaluator.tar",
+        "img_size": 64
+    }
+}

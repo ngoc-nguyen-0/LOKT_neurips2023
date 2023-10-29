@@ -1,0 +1,13 @@
+{
+  "train": {
+    "config_dataset": "./config/dataset/facescrub.json",
+    "target": "FaceNet64",
+    "result_dir": "../Results_tacgan2_6k",
+    "path_T": "../target_model/target_ckp/facescrub_FaceNet64_93.12_target.tar",
+    "models": "densenet121,densenet161,densenet169,D,T",
+    "cls_ckpts": "../Results_label_only/facescrub/facescrub/FaceNet64/S/densenet121/FaceNet64_densenet121_e200.pt,../Results_label_only/facescrub/facescrub/FaceNet64/S/densenet161/FaceNet64_densenet161_e200.pt,../Results_label_only/facescrub/facescrub/FaceNet64/S/densenet169/FaceNet64_densenet169_e200.pt,D,T",
+    "path_G": "../Results_tacgan2_6k/facescrub/facescrub/FaceNet64/tacgan_1.5_wgan/gen_8_iter_0008000.pth.tar",
+    "path_D": "../Results_tacgan2_6k/facescrub/facescrub/FaceNet64/tacgan_1.5_wgan/dis_8_iter_0008000.pth.tar",
+    "gen_data": "../Results_label_only/facescrub/facescrub/FaceNet64/generated_data_tacgan/FaceNet64_facescrub_facescrub.pt"
+  }
+}

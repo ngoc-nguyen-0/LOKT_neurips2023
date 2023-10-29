@@ -1,0 +1,15 @@
+{
+    "dataset":{
+        "pub_file_path": "./data_files/ffhq_ganset.txt",
+        "test_file_path": "./data_files/celeba_testset.txt",
+        "train_file_path": "./data_files/celeba_trainset.txt",
+        "d_priv": "celeba",
+        "d_pub": "ffhq",
+        "img_priv_path": "../celeba/img_align_celeba",
+        "img_pub_path": "../ffhq/thumbnails128x128",
+        "n_classes":1000,
+        "E_n_classes":1000,
+        "path_E":"../target_model/target_ckp/FaceNet_95.88.tar",
+        "img_size": 64
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "dataset":{
+        "pub_file_path": "./data_files/ffhq_ganset.txt",
+        "test_file_path": "./data_files/vggface2/testset.txt",
+        "train_file_path": "./data_files/vggface2/trainset.txt",
+        "d_priv": "vggface2",
+        "d_pub": "ffhq",
+        "img_priv_path": "../vggface2/train_64/",
+        "img_pub_path": "../ffhq/thumbnails128x128",
+        "n_classes":8631,
+        "E_n_classes":8631,
+        "path_E":"../target_model/target_ckp/FaceNet_95.88.tar",
+        "img_size": 64
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "dataset":{
+        "pub_file_path": "./data_files/facescrub_ganset.txt",
+        "test_file_path": "./data_files/facescrub_testset.txt",
+        "train_file_path": "./data_files/facescrub_trainset.txt",
+        "d_priv": "facescrub",
+        "d_pub": "facescrub",
+        "img_priv_path": "../facescrub_full",
+        "img_pub_path": "../facescrub_full",
+        "n_classes":200,
+        "E_n_classes":530,
+        "path_E":"../target_model/target_ckp/facescrub_FaceNet_97.37_evaluator.tar",
+        
+        "img_size": 64
+    }
+}

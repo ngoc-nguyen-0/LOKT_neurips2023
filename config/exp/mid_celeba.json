@@ -1,0 +1,13 @@
+{
+  "train": {
+    "config_dataset": "./config/dataset/celeba.json",
+    "target": "MID",
+    "result_dir": "../Results_wgan2",
+    "path_T": "../target_model/target_ckp/VGG16_MID_79.16.tar",
+    "models": "densenet121,densenet161,densenet169,D,T",
+    "cls_ckpts": "../Results_wgan2/celeba/celeba/MID/S/densenet121/MID_densenet121_e200.pt,../Results_wgan2/celeba/celeba/MID/S/densenet161/MID_densenet161_e200.pt,../Results_wgan2/celeba/celeba/MID/S/densenet169/MID_densenet169_e200.pt,3",
+    "path_G": "../Results_wgan2/celeba/celeba/MID/tacgan_1.5_wgan/gen_20_iter_0020000.pth.tar",
+    "path_D": "../Results_wgan2/celeba/celeba/MID/tacgan_1.5_wgan/dis_20_iter_0020000.pth.tar",
+    "gen_data": "../Results_wgan2/celeba/celeba/MID/generated_data_tacgan/MID_celeba_celeba.pt"
+  }
+}
