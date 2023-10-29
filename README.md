@@ -24,13 +24,16 @@ pip install -r requirements.txt
 
 * Download meta data for the experiments at: https://drive.google.com/drive/folders/1kq4ArFiPmCWYKY7iiV0WxxUSXtP70bFQ?usp=sharing
 
+* Modify the arguments ```img_priv_path``` and ```img_pub_path`` of the config at ```./config/dataset/dataset_name.json```
 
 * We use the same target models and GAN as previous papers. You can download target models at https://drive.google.com/drive/folders/1kq4ArFiPmCWYKY7iiV0WxxUSXtP70bFQ?usp=sharing
 
 
 ## 3. Train TACGAN
-* Modify ```img_priv_path``` and ```img_pub_path``` the path_to_dataset in ./config/dataset/
-
+* Modify the arguments of the config at ```./config/exp/experiment_name.json```. Important arguments:
+  * `result_dir`: Modify the output path.
+  * `path_T`: Modify the path to the target model
+    
 * Then, run the following command line to get the TACGAN:
 
 ```
