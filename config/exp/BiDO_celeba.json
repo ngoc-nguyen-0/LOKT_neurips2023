@@ -2,12 +2,12 @@
   "train": {
     "config_dataset": "./config/dataset/celeba.json",
     "target": "BiDO",
-    "result_dir": "../Results_wgan2",
+    "result_dir": "../Results",
     "path_T": "../target_model/target_ckp/VGG16_Defend_MI.tar",
     "models": "densenet121,densenet161,densenet169,D,T",
-    "cls_ckpts": "../Results_wgan2/celeba/celeba/BiDO/S/densenet121/BiDO_densenet121_e200.pt,../Results_wgan2/celeba/celeba/BiDO/S/densenet161/BiDO_densenet161_e200.pt,../Results_wgan2/celeba/celeba/BiDO/S/densenet169/BiDO_densenet169_e200.pt,D,T",
-    "path_G": "../Results_wgan2/celeba/celeba/BiDO/tacgan_1.5_wgan/gen_20_iter_0020000.pth.tar",
-    "path_D": "../Results_wgan2/celeba/celeba/BiDO/tacgan_1.5_wgan/dis_20_iter_0020000.pth.tar",
-    "gen_data": "../Results_wgan2/celeba/celeba/BiDO/generated_data_tacgan/BiDO_celeba_celeba.pt"
+    "cls_ckpts": "../Results/celeba/celeba/BiDO/S/densenet121/BiDO_densenet121_e200.pt,../Results/celeba/celeba/BiDO/S/densenet161/BiDO_densenet161_e200.pt,../Results/celeba/celeba/BiDO/S/densenet169/BiDO_densenet169_e200.pt,D,T",
+    "path_G": "../Results/celeba/celeba/BiDO/tacgan_1.5_wgan/gen_20_iter_0020000.pth.tar",
+    "path_D": "../Results/celeba/celeba/BiDO/tacgan_1.5_wgan/dis_20_iter_0020000.pth.tar",
+    "gen_data": "../Results/celeba/celeba/BiDO/generated_data_tacgan/BiDO_celeba_celeba.pt"
   }
 }
