@@ -107,7 +107,7 @@ We gratefully acknowledge the following works:
 
 ## Reference
 <a id="1">[1]</a> 
-Yuan, Xiaojian, et al. "Pseudo Label-Guided Model Inversion Attack via Conditional Generative Adversarial Network." AAAI (2023)..
+Yuan, Xiaojian, et al. "Pseudo Label-Guided Model Inversion Attack via Conditional Generative Adversarial Network." AAAI (2023).
 
 
 
