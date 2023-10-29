@@ -29,6 +29,10 @@ pip install -r requirements.txt
 
 
 ## 3. Train TACGAN
+* Modify ```img_priv_path``` and ```img_pub_path``` the path_to_dataset in ./config/dataset/
+
+* Then, run the following command line to get the TACGAN:
+
 ```
 python train_tacgan.py \
 --alpha=1.5 \
@@ -38,19 +42,35 @@ python train_tacgan.py \
 ```
 
 ## 4. Train surrogate model
+* Generate images by TACGAN to train the surrogate models:
+
 ```
 python create_dataset.py \
 --config_exp ./config/exp/FaceNet64_celeba.json 
 ```
 
+* Then, run the following command line to get the surrogate model:
+  
 ```
 python train_surrogate_model.py \
 --is_wandb \
 --config_exp ./config/exp/FaceNet64_celeba.json \
---surrogate_model_id 1 
+--surrogate_model_id 0 
 ```
 
-## 5. inversion and evaluation
+Modify ```surrogate_model_id``` to change the architectures of the surrogate model. We provide 3 architectures for surrogate models:
+* 0: Densenet121
+* 1: Densenet161
+* 2: Densenet169
+
+  
+## 5. Attack and evaluation
+* Important arguments:
+  * `inv_loss_type`: select the identity loss ***margin*** or ***ce***
+  * `classid` select the surrogate models ***0***, ***1***, ***2***, or ***0,1,2***
+
+* Run the following command line to attack:
+
 ```
 python plg_tacgan.py \
 --inv_loss_type=margin \
@@ -58,6 +78,10 @@ python plg_tacgan.py \
 --classid='0,1,2' \
 --config_exp ./config/exp/FaceNet64_celeba.json \
 ```
+
+
+
+* Run the following command line to evaluate:
 
 ```
 python evaluation.py \
