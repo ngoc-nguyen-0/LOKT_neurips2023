@@ -2,12 +2,12 @@
   "train": {
     "config_dataset": "./config/dataset/ffhq_celeba.json",
     "target": "FaceNet64",
-    "result_dir": "../Results_wgan2",
+    "result_dir": "../Results",
     "path_T": "../target_model/target_ckp/FaceNet64_88.50.tar",
     "models": "densenet121,densenet161,densenet169,D,T",
-    "cls_ckpts": "../Results_wgan2/celeba/ffhq/FaceNet64/S/densenet121/FaceNet64_densenet121_e200.pt,../Results_wgan2/celeba/ffhq/FaceNet64/S/densenet161/FaceNet64_densenet161_e200.pt,../Results_wgan2/celeba/ffhq/FaceNet64/S/densenet169/FaceNet64_densenet169_e200.pt,D,T",
-    "path_G": "../Results_wgan2/celeba/ffhq/FaceNet64/tacgan_1.5_wgan/gen_21_iter_0021000.pth.tar",
-    "path_D": "../Results_wgan2/celeba/ffhq/FaceNet64/tacgan_1.5_wgan/dis_21_iter_0021000.pth.tar",
-    "gen_data": "../Results_wgan2/celeba/ffhq/FaceNet64/generated_data_tacgan/FaceNet64_celeba_ffhq.pt"
+    "cls_ckpts": "../Results/celeba/ffhq/FaceNet64/S/densenet121/FaceNet64_densenet121_e200.pt,../Results/celeba/ffhq/FaceNet64/S/densenet161/FaceNet64_densenet161_e200.pt,../Results/celeba/ffhq/FaceNet64/S/densenet169/FaceNet64_densenet169_e200.pt,D,T",
+    "path_G": "../Results/celeba/ffhq/FaceNet64/tacgan_1.5_wgan/gen_21_iter_0021000.pth.tar",
+    "path_D": "../Results/celeba/ffhq/FaceNet64/tacgan_1.5_wgan/dis_21_iter_0021000.pth.tar",
+    "gen_data": "../Results/celeba/ffhq/FaceNet64/generated_data_tacgan/FaceNet64_celeba_ffhq.pt"
   }
 }
