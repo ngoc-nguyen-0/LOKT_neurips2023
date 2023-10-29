@@ -2,12 +2,12 @@
   "train": {
     "config_dataset": "./config/dataset/pubfig.json",
     "target": "FaceNet64",
-    "result_dir": "../Results_tacgan2_2k",
+    "result_dir": "../Results",
     "path_T": "../target_model/target_ckp/pubfig83_FaceNet64_98.05_target.tar",
     "models": "densenet121,densenet161,densenet169,D,T",
-    "cls_ckpts": "../Results_label_only/pubfig/pubfig/FaceNet64/S/densenet121/FaceNet64_densenet121_e200.pt,../Results_label_only/pubfig/pubfig/FaceNet64/S/densenet161/FaceNet64_densenet161_e200.pt,../Results_label_only/pubfig/pubfig/FaceNet64/S/densenet169/FaceNet64_densenet169_e200.pt,D,T",
-    "path_G": "../Results_tacgan2_2k/pubfig/pubfig/FaceNet64/tacgan_1.5_wgan/gen_11_iter_0011000.pth.tar",
-    "path_D": "../Results_tacgan2_2k/pubfig/pubfig/FaceNet64/tacgan_1.5_wgan/dis_11_iter_0011000.pth.tar",
-    "gen_data": "../Results_label_only/pubfig/pubfig/FaceNet64/generated_data_tacgan/FaceNet64_pubfig_pubfig.pt"
+    "cls_ckpts": "../Results/pubfig/pubfig/FaceNet64/S/densenet121/FaceNet64_densenet121_e200.pt,../Results/pubfig/pubfig/FaceNet64/S/densenet161/FaceNet64_densenet161_e200.pt,../Results/pubfig/pubfig/FaceNet64/S/densenet169/FaceNet64_densenet169_e200.pt,D,T",
+    "path_G": "../Results/pubfig/pubfig/FaceNet64/tacgan_1.5_wgan/gen_11_iter_0011000.pth.tar",
+    "path_D": "../Results/pubfig/pubfig/FaceNet64/tacgan_1.5_wgan/dis_11_iter_0011000.pth.tar",
+    "gen_data": "../Results/pubfig/pubfig/FaceNet64/generated_data_tacgan/FaceNet64_pubfig_pubfig.pt"
   }
 }
