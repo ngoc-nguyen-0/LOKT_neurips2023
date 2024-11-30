@@ -22,11 +22,9 @@ pip install -r requirements.txt
 
 - FFHQ: download and extract the [FFHQ](https://github.com/NVlabs/ffhq-dataset). Then, place the `thumbnails128x128` folder to `.\datasets\ffhq`
 
-* Download meta data for the experiments at: https://drive.google.com/drive/folders/1kq4ArFiPmCWYKY7iiV0WxxUSXtP70bFQ?usp=sharing
-
 * Modify the arguments ```img_priv_path``` and ```img_pub_path`` of the config at ```./config/dataset/dataset_name.json```
 
-* We use the same target models and GAN as previous papers. You can download target models at https://drive.google.com/drive/folders/1kq4ArFiPmCWYKY7iiV0WxxUSXtP70bFQ?usp=sharing
+* We use the same target models as previous papers. You can download target models at https://drive.google.com/drive/folders/1kq4ArFiPmCWYKY7iiV0WxxUSXtP70bFQ?usp=sharing
 
 
 ## 3. Train TACGAN
@@ -68,6 +66,8 @@ Modify ```surrogate_model_id``` to change the architectures of the surrogate mod
 * 1: Densenet161
 * 2: Densenet169
 
+* You can download the surrogate models and TACGAN at: 
+https://drive.google.com/drive/folders/11gvFaltjILgPmNgkJ_w1fcINj1RlfOuw?usp=sharing
   
 ## 5. Attack and evaluation
 * Important arguments:
