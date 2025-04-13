@@ -8,7 +8,6 @@ import utils
 
 from argparse import ArgumentParser
 
-from visualization import plot_pair
 if __name__ == '__main__':
     
     parser = ArgumentParser(description='Evaluation')
@@ -89,11 +88,7 @@ if __name__ == '__main__':
             aver_acc, aver_acc5, aver_std, aver_std5 = eval_acc(E,dataset,fake_dir)
         elif metric_ == 'knn':
             knn,std_knn = eval_KNN(dataset,fake_dir)
-        elif metric_ == 'visualization':
-            print('visualization')
-            filename = plot_pair(save_dir,fake_dir,E,loaded_args_dataset['dataset']['d_priv'])
-            print('path to result: ',filename)
-            # return filename       
+          
    
     csv_file = 'Evaluation_plg_{}.csv'.format(dataset)
 
